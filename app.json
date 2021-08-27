@@ -1,0 +1,15 @@
+
+{
+  "name": "bot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Enter bot token.",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
