@@ -1,14 +1,14 @@
 # IMDb Telegram Bot 
 Telegram bot to fetch details and ratings for any movie or TV Show
 
-### Bot username: @imdb7_bot
+### Bot username: @imdb7_bot 
 ### Use this [link](http://t.me/imdb7_bot) to access the bot on Telegram
 
 ![telegram_image](https://github.com/Karan-Malik/IMDb_bot/blob/master/image.JPG?raw=true)
 <br><br>
 
 
-## Deploy to Heroku:
+## Deploy to Heroku
 <p align="left"><a href="https://heroku.com/deploy"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
 
 
