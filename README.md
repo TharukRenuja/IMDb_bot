@@ -7,6 +7,11 @@ Telegram bot to fetch details and ratings for any movie or TV Show
 ![telegram_image](https://github.com/Karan-Malik/IMDb_bot/blob/master/image.JPG?raw=true)
 <br><br>
 
+
+## Deploy to Heroku:
+<p align="left"><a href="https://heroku.com/deploy"> <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy to Heroku" /></a></p>
+
+
 To run the bot locally, follow these steps:
 
 1) Clone this repository to your system.
