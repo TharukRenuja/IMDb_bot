@@ -5,6 +5,7 @@ Created on Fri Dec 25 20:24:17 2020
 @author: karan
 """
 import logging
+import random
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import urllib.request
 import json
@@ -16,7 +17,7 @@ ia = imdb.IMDb()
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)
 logger = logging.getLogger(__name__)
-
+list = ['558c75c8', '558c75c8']
 
 def start(update, context):
     update.message.reply_text('Hi! \nWelcome to the *IMDb Bot*. \nSend me the name of any movie or TV show to get its details. \nHappy viewing! \n \nCreated by [Karan Malik](https://karan-malik.github.io)',parse_mode='markdown')
@@ -34,7 +35,7 @@ def reply(update, context):
       
     id='tt'+search[0].movieID
     
-    url= 'http://www.omdbapi.com/?i='+id+'&apikey=558c75c8'
+    url= 'http://www.omdbapi.com/?i='+id+'&apikey='+random.choice(list)
     
     x=urllib.request.urlopen(url)
     
